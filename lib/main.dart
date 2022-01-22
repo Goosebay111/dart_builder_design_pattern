@@ -1,3 +1,4 @@
+// assembling different multi component classes that have the same features but different characteristics (i.e. igool, viking lodge, mud hut).
 void main() {
   HouseBuilder iglooBuilder = IglooHouseBuilder();
   CivilEngineer engineer = CivilEngineer(iglooBuilder);
